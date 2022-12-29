@@ -520,6 +520,28 @@ section {
   margin: 15px 0;;
 }
 
+.projects #charityProject #charityQuote { 
+  font-style: italic; 
+  margin-left: 2em;
+}
+
+.projects #charityProject button {
+  background-color: darkred;
+  color: #FFF;
+  border: solid #333 2px;
+  border-radius: 3px;
+  margin: 1em 1em 2em 1em;
+  padding: 0.5em;
+  transition: background-color 250ms linear;
+}
+
+.projects #charityProject button:hover {
+  background-color: #FFF;
+  color: darkred;
+  border: solid #333 2px;
+  cursor: pointer;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
